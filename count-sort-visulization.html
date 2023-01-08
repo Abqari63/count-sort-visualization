@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CA-3-count-sort-visulization.css">
+    <title>Counting Sort</title>
+</head>
+<body>
+
+    <div class="input-container">
+        <h1>Counting Sort</h1>
+        <p class="text">Please enter maximum 20 enter space separated integer numbers between 0 to 20 (numbers can be repeated) </p>
+        <input type="text" id="take-input" required>
+        <input type="button" value="submit" onclick = "makeArray()">
+        <input type="button" value="Count Sort" onclick = "countSort()">
+    </div>
+    <div class = "array">
+        <div id="visual-array"></div>
+    </div> <br><br><br>
+
+    <div class = "count">
+        <div id="freq-array"></div>
+    </div>
+
+    <script src = "CA-3-count-sort-visulization.js"></script>
+</body>
+</html>

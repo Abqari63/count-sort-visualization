@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lavender;
+}
+
+.input-container {
+    text-align: center;
+    line-height: 3cm;
+}
+
+h1 {
+    font-size: 6vh;
+}
+p {
+    font-size: 3vh;
+}
+
+.input-holder {
+    text-align: center;
+    line-height: 1cm;
+}
+
+input {
+    font-size: 3vh;
+    padding: 1vh;
+    outline: none;
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0px 0px 20px grey;
+    margin: 1vh;
+}
+
+input[type = "button"]:hover {
+    background-color: palevioletred;
+    cursor: pointer;
+}
+
+.array, .count {
+    width: 100%;
+}
+#visual-array {
+    height: 200px;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    margin-top: 64px;
+    
+}
+
+
+.bar-block {
+    width: 48px;
+    position: absolute;
+    bottom: 0px;
+    transition: 1s all ease-in-out;
+    background-color: olive;
+}
+
+.bar-block-label {
+    position: absolute;
+    color: black;
+    margin-top: -20px;
+    width: 100%;
+    text-align: center;
+}
+
+#freq-array {
+    position: relative;
+    height: 42px;
+    width: 50vw;
+    margin: auto;
+}
+
+.freq-count-array {
+    width: 48px;
+    position: absolute;
+    transition: 1s all ease-in-out;
+    background-color: darkgrey;
+}
+
+.freq-count-array-index {
+    position: absolute;
+    color: black;
+    margin-top: 38px;
+    width: 100%;
+    text-align: center;
+}
+
+.freq-count { 
+    position: absolute;
+    color: black;
+    margin-top: 6px;
+    width: 100%;
+    text-align: center;
+}
